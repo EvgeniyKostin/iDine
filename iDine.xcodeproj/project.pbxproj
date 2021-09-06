@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE6E858926E5746B0045DB4F /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6E858826E5746B0045DB4F /* ItemRow.swift */; };
 		FEEDB08226E555A100466F64 /* iDineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB08126E555A100466F64 /* iDineApp.swift */; };
 		FEEDB08426E555A100466F64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB08326E555A100466F64 /* ContentView.swift */; };
 		FEEDB08626E555A900466F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEEDB08526E555A900466F64 /* Assets.xcassets */; };
 		FEEDB08926E555A900466F64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEEDB08826E555A900466F64 /* Preview Assets.xcassets */; };
+		FEEDB09026E557E600466F64 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB08F26E557E600466F64 /* Helper.swift */; };
+		FEEDB09326E5585400466F64 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB09126E5585300466F64 /* Order.swift */; };
+		FEEDB09426E5585400466F64 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB09226E5585400466F64 /* Menu.swift */; };
+		FEEDB09626E5587D00466F64 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = FEEDB09526E5587D00466F64 /* menu.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE6E858826E5746B0045DB4F /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		FEEDB07E26E555A100466F64 /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEEDB08126E555A100466F64 /* iDineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineApp.swift; sourceTree = "<group>"; };
 		FEEDB08326E555A100466F64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FEEDB08526E555A900466F64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEEDB08826E555A900466F64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FEEDB08F26E557E600466F64 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = Archive/idine/Helper.swift; sourceTree = SOURCE_ROOT; };
+		FEEDB09126E5585300466F64 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = Archive/idine/Order.swift; sourceTree = SOURCE_ROOT; };
+		FEEDB09226E5585400466F64 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = Archive/idine/Menu.swift; sourceTree = SOURCE_ROOT; };
+		FEEDB09526E5587D00466F64 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = Archive/idine/menu.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				FEEDB08126E555A100466F64 /* iDineApp.swift */,
 				FEEDB08326E555A100466F64 /* ContentView.swift */,
+				FE6E858826E5746B0045DB4F /* ItemRow.swift */,
+				FEEDB08F26E557E600466F64 /* Helper.swift */,
+				FEEDB09226E5585400466F64 /* Menu.swift */,
+				FEEDB09126E5585300466F64 /* Order.swift */,
+				FEEDB09526E5587D00466F64 /* menu.json */,
 				FEEDB08526E555A900466F64 /* Assets.xcassets */,
 				FEEDB08726E555A900466F64 /* Preview Content */,
 			);
@@ -125,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEEDB09626E5587D00466F64 /* menu.json in Resources */,
 				FEEDB08926E555A900466F64 /* Preview Assets.xcassets in Resources */,
 				FEEDB08626E555A900466F64 /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +155,10 @@
 			files = (
 				FEEDB08426E555A100466F64 /* ContentView.swift in Sources */,
 				FEEDB08226E555A100466F64 /* iDineApp.swift in Sources */,
+				FEEDB09326E5585400466F64 /* Order.swift in Sources */,
+				FE6E858926E5746B0045DB4F /* ItemRow.swift in Sources */,
+				FEEDB09026E557E600466F64 /* Helper.swift in Sources */,
+				FEEDB09426E5585400466F64 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
